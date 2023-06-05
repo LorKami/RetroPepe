@@ -1,0 +1,49 @@
+.HomeSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../images/bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.HomeLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.HomeLogo img {
+    max-width: 900px;
+    width: 30%;
+    animation: pixel-movement 2s infinite;
+}
+
+@keyframes pixel-movement {
+    0% {
+      transform: translateY(-4%);
+    }
+    50% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(-4%);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .HomeLogo img {
+      width: 50%;
+  }
+  }
+
+  @media screen and (max-width: 425px) {
+    .HomeLogo img {
+      width: 70%;
+  }
+  }

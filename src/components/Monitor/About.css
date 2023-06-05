@@ -1,0 +1,93 @@
+.AboutSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #31102f;
+}
+
+.AboutBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+
+.AboutImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.AboutImage img {
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+}
+
+.AboutAbout {
+    color: white;
+}
+
+.AboutAbout h2 {
+    font-size: 4rem;
+}
+
+.AboutAbout p {
+    font-size: 1.4rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gallery-image {
+    width: 310px;
+    height: 310px;
+    object-fit: cover;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s linear;
+  }
+
+  .gallery-image:hover {
+    transform: scale(1.1);
+  }
+
+  @media screen and (max-width: 768px) {
+    .gallery-image {
+        width: 240px;
+        height: 240px;
+      }
+  }
+
+  @media screen and (max-width: 425px) {
+    .AboutAbout h2 {
+        font-size: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .AboutAbout h2 {
+        font-size: 2.8rem;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .AboutAbout h2 {
+        font-size: 2.5rem;
+    }
+    .gallery-image {
+        width: 120px;
+        height: 120px;
+      }
+  }
+  

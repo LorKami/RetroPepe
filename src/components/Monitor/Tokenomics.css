@@ -1,0 +1,33 @@
+.TokenomicsSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #31102f;
+}
+
+.TokenomicBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    /* border: 2px solid yellow; */
+}
+
+.TokenomicBox img{
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    /* filter: blur(20px); */
+}
+
+@media screen and (max-width: 425px) {
+    .TokenomicsSec {
+        height: auto;
+    }   
+    .TokenomicBox {
+        width: 90%;
+    }
+}
